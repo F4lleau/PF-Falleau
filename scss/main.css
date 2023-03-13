@@ -18,61 +18,52 @@ h1 {
   overflow: hidden;
   padding: 60px 0;
 }
-.contenedor .contenedor-textos {
+
+.contenedor-textos {
   padding: 0;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #FFFFFF;
+  color: var(--colortextos);
 }
-.contenedor .menu-navegacion {
+
+.menu-navegacion {
   padding: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 110px;
 }
-.contenedor .img-logo {
+
+.img-logo {
   width: 100px;
 }
-.contenedor ul li {
+
+ul li {
   list-style: none;
   display: inline-block;
 }
-.contenedor ul li::after {
+
+ul li::after {
   content: "|";
   margin: 1rem;
   color: rgb(252, 248, 248);
 }
-.contenedor ul a:hover {
+
+ul a:hover {
   color: rgb(142, 178, 243);
 }
-.contenedor ul a {
+
+li a {
   text-decoration: none;
   padding-left: 10px;
-}
-.contenedor .hero {
-  height: 300px;
-  background-image: url(../media/pexels-edgar-toro-6034140.jpg);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  text-align: center;
-}
-.contenedor .hero h1 {
-  font-size: 3em;
-  font-weight: 700;
-}
-.contenedor .hero p {
-  font-size: 21px;
-  font-weight: 400;
 }
 
 .hero {
   height: 300px;
-  background-image: url(./media/pexels-edgar-toro-6034140.jpg);
+  background-image: url(../media/pexels-edgar-toro-6034140.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -89,6 +80,132 @@ h1 {
   font-weight: 400;
 }
 
+/*Index*/
+body {
+  background-color: #212F3C;
+}
+
+/*main*/
+main {
+  background-color: #efefef;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.post-list {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 15px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.titulo-seccion {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #008080;
+  padding: 30px;
+  text-align: center;
+}
+
+.post-img-1 {
+  background: url(../media/obra-particular.jpeg);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.2s;
+}
+
+.post-img-2 {
+  background: url(../media/obra-estado.jpeg);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.2s;
+}
+
+.post-img-3 {
+  background: url(../media/remodelaciones.jpeg);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.2s;
+}
+
+.post-img-4 {
+  background: url(../media/herrería.jpeg);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.2s;
+}
+
+.post-img-5 {
+  background: url(../media/aberturas.jpeg);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.2s;
+}
+
+.post-img-6 {
+  background: url(../media/refacción-local-comercial.jpeg);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.2s;
+}
+
+.post {
+  box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+
+.post:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 1px 14px 2px rgba(0, 0, 0, 0.15);
+}
+
+.post-header {
+  width: 100%;
+  height: 200%;
+}
+
+.post-body {
+  padding: 15px;
+  text-align: center;
+}
+
+.post-body h3 {
+  margin-bottom: 15px;
+  color: #008080;
+}
+
+.post-body p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/*footer*/
 .col-sm-12 {
   align-items: center;
 }
@@ -140,119 +257,7 @@ textarea {
   cursor: pointer;
 }
 
-body {
-  background: #212F3C;
-}
-
-.post-list {
-  display: flex;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
-  padding: 30px 15px;
-}
-
-.content {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-.titulo-seccion {
-  font-size: 2em;
-  margin-bottom: 20px;
-  color: #008080;
-  padding: 30px;
-  text-align: center;
-}
-
-.post-img-1 {
-  background: url(./media/obra-particular.jpeg);
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  transition: 0.2s;
-}
-
-.post-img-2 {
-  background: url(./media/obra-estado.jpeg);
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  transition: 0.2s;
-}
-
-.post-img-3 {
-  background: url(./media/remodelaciones.jpeg);
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  transition: 0.2s;
-}
-
-.post-img-4 {
-  background: url(./media/herrería.jpeg);
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  transition: 0.2s;
-}
-
-.post-img-5 {
-  background: url(./media/aberturas.jpeg);
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  transition: 0.2s;
-}
-
-.post-img-6 {
-  background: url(./media/refacción-local-comercial.jpeg);
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  transition: 0.2s;
-}
-
-.post {
-  box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.1);
-  transition: 0.2s;
-}
-
-.post:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 1px 14px 2px rgba(0, 0, 0, 0.15);
-}
-
-.post-header {
-  width: 100%;
-  height: 200%;
-}
-
-.post-body {
-  padding: 15px;
-  text-align: center;
-}
-
-.post-body h3 {
-  margin-bottom: 15px;
-  color: #008080;
-}
-
-.post-body p {
-  line-height: 1.5;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
+/*clientes*/
 .clientes-datos {
   max-width: 1170px;
   margin-left: auto;
