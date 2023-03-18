@@ -1,7 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Source+Sans+Pro&display=swap");
+
 h1 {
-  color: orange;
+  color: hwb(40 98% 1%);
 }
 
 * {
@@ -63,7 +64,7 @@ li a {
 
 .hero {
   height: 300px;
-  background-image: url(../media/pexels-edgar-toro-6034140.jpg);
+  background-image: url(./media/pexels-edgar-toro-6034140.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -121,7 +122,7 @@ main {
 }
 
 .post-img-1 {
-  background: url(../media/obra-particular.jpeg);
+  background: url(./media/obra-particular.jpeg);
   width: 100%;
   height: 200px;
   background-size: cover;
@@ -130,7 +131,7 @@ main {
 }
 
 .post-img-2 {
-  background: url(../media/obra-estado.jpeg);
+  background: url(./media/obra-estado.jpeg);
   width: 100%;
   height: 200px;
   background-size: cover;
@@ -139,7 +140,7 @@ main {
 }
 
 .post-img-3 {
-  background: url(../media/remodelaciones.jpeg);
+  background: url(./media/remodelaciones.jpeg);
   width: 100%;
   height: 200px;
   background-size: cover;
@@ -148,7 +149,7 @@ main {
 }
 
 .post-img-4 {
-  background: url(../media/herrería.jpeg);
+  background: url(./media/herrería.jpeg);
   width: 100%;
   height: 200px;
   background-size: cover;
@@ -157,7 +158,7 @@ main {
 }
 
 .post-img-5 {
-  background: url(../media/aberturas.jpeg);
+  background: url(./media/aberturas.jpeg);
   width: 100%;
   height: 200px;
   background-size: cover;
@@ -166,7 +167,7 @@ main {
 }
 
 .post-img-6 {
-  background: url(../media/refacción-local-comercial.jpeg);
+  background: url(./media/refacción-local-comercial.jpeg);
   width: 100%;
   height: 200px;
   background-size: cover;

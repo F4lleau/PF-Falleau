@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Source+Sans+Pro&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.about-us{
+    background-color: #212f3c;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    border: auto;
+    .about-1{
+        margin:30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        h1{
+            text-align: center;
+            color: #008080;
+            font-weight: bold;
+        }
+        h2{
+            text-align: center;
+            color: rgb(238, 236, 236);
+            font-weight: bold;
+            padding: 30px;
+            font-size: 20px;
+        }
+        p{
+            text-align: center;
+            padding: 10px;
+            color: #fff
+        }
+    }
+    .about-item{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 75px auto;
+        text-align: center;
+        background-color: #fff;
+        i{
+          font-size: 43px;
+          margin:0;
+          position: static;
+        }
+        h3{
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        img{
+            width: 40%;
+            height: 300px;
+            background-position: center;
+            background-size: auto;
+        }
+    }
+}
+
+.about-item:hover{
+    transform: translateY(-4px);  
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 10px 10px;
+    background-color: #efefef;
+    border-radius: 10px;
+}
+

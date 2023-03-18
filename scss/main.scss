@@ -6,8 +6,9 @@
 @import'./abstracts/variables';
 @import './base/base';
 @import './layout/header';
-@import './components/detail.scss';
 @import './layout/footer';
+@import './layout/contactanos';
+@import './layout/aboutus';
 
 body{
     background: $color-fondo;
@@ -173,42 +174,4 @@ body{
     color: #212F3C;
 }
 
-/*quienes somos*/
 
-.text-principal h3{
-    text-align: center;
-    color: #008080;
-}
-
-.text-principal p{
-    text-align: center;
-    color: #212F3C;
-}
-
-.text-principal{
-    margin: auto;
-}
-.mision-vision{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.mision-vision img{
-    width: 100%;
-    max-width: 280px;
-}
-.mision-vision article{
-    margin: 15px;
-}
-
-.mision-vision h3{
-    text-align: center;
-    margin: 15px;
-    max-width: 280px;
-}
-
-.mision-vision p{
-    text-align: center;
-    margin: 15px;
-    max-width: 280px;
-}

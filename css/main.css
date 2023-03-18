@@ -1,9 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Source+Sans+Pro&display=swap");
-h1 {
-  color: orange;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +16,8 @@ h1 {
   overflow: hidden;
   padding: 60px 0;
 }
-.contenedor .contenedor-textos {
+
+.contenedor-textos {
   padding: 0;
   height: 100%;
   display: flex;
@@ -27,33 +26,12 @@ h1 {
   justify-content: center;
   color: #FFFFFF;
 }
-.contenedor .menu-navegacion {
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 110px;
-}
-.contenedor .img-logo {
+
+.img-logo {
   width: 100px;
 }
-.contenedor ul li {
-  list-style: none;
-  display: inline-block;
-}
-.contenedor ul li::after {
-  content: "|";
-  margin: 1rem;
-  color: rgb(252, 248, 248);
-}
-.contenedor ul a:hover {
-  color: rgb(142, 178, 243);
-}
-.contenedor ul a {
-  text-decoration: none;
-  padding-left: 10px;
-}
-.contenedor .hero {
+
+.hero {
   height: 300px;
   background-image: url(../media/pexels-edgar-toro-6034140.jpg);
   background-position: center;
@@ -61,22 +39,40 @@ h1 {
   background-attachment: fixed;
   text-align: center;
 }
-.contenedor .hero h1 {
+
+.hero h1 {
   font-size: 3em;
   font-weight: 700;
 }
-.contenedor .hero p {
+.hero p {
   font-size: 21px;
   font-weight: 400;
+  color: #FFFFFF;
 }
 
-.hero {
-  height: 300px;
-  background-image: url(./media/pexels-edgar-toro-6034140.jpg);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  text-align: center;
+.menu-navegacion {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+ul li::after {
+  content: "|";
+  margin: 1rem;
+  color: rgb(252, 248, 248);
+}
+ul a:hover {
+  color: rgb(159, 190, 247);
+}
+ul a {
+  text-decoration: none;
+  padding-left: 10px;
 }
 
 .hero h1 {
@@ -138,6 +134,80 @@ textarea {
 
 #boton:hover {
   cursor: pointer;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.about-us {
+  background-color: #212f3c;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 20px;
+  border: auto;
+}
+.about-us .about-1 {
+  margin: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.about-us .about-1 h1 {
+  text-align: center;
+  color: #008080;
+  font-weight: bold;
+}
+.about-us .about-1 h2 {
+  text-align: center;
+  color: rgb(238, 236, 236);
+  font-weight: bold;
+  padding: 30px;
+  font-size: 20px;
+}
+.about-us .about-1 p {
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+.about-us .about-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 75px auto;
+  text-align: center;
+  background-color: #fff;
+}
+.about-us .about-item i {
+  font-size: 43px;
+  margin: 0;
+  position: static;
+}
+.about-us .about-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.about-us .about-item img {
+  width: 40%;
+  height: 300px;
+  background-position: center;
+  background-size: auto;
+}
+
+.about-item:hover {
+  transform: translateY(-4px);
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px;
+  padding: 10px 10px;
+  background-color: #efefef;
+  border-radius: 10px;
 }
 
 body {
@@ -309,48 +379,6 @@ body {
 .work h4 {
   text-align: center;
   color: #212F3C;
-}
-
-/*quienes somos*/
-.text-principal h3 {
-  text-align: center;
-  color: #008080;
-}
-
-.text-principal p {
-  text-align: center;
-  color: #212F3C;
-}
-
-.text-principal {
-  margin: auto;
-}
-
-.mision-vision {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.mision-vision img {
-  width: 100%;
-  max-width: 280px;
-}
-
-.mision-vision article {
-  margin: 15px;
-}
-
-.mision-vision h3 {
-  text-align: center;
-  margin: 15px;
-  max-width: 280px;
-}
-
-.mision-vision p {
-  text-align: center;
-  margin: 15px;
-  max-width: 280px;
 }
 
 /*# sourceMappingURL=main.css.map */
