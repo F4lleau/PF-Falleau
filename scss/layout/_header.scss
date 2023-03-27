@@ -55,7 +55,6 @@ ul{
         display: inline-block;
     }
     li::after{
-        content: "|";
         margin: 1rem;
         color: rgb(252, 248, 248);
     }
@@ -65,6 +64,7 @@ ul{
     a{
         text-decoration: none;
         padding-left: 10px;
+        color: $color-textos;
     }
 }
 
