@@ -42,40 +42,68 @@
     </header>
     
     <main class="clientes-datos">
-        <h1 class="titulo">ACTUALIZACIÓN DE DATOS</h1>
-        <div class="datos-tipe">
-            <div class="contact-form">
-                <form action="#" method="GET" enctype="application/x-www-form-urlencoded">
-                    <label for="nombre">Nombre y apellido</label><br>
-                    <input type="text" name="nombre" id="nombre" required><br>
-                    
-                    <label for="documento">DNI</label><br>
-                    <input type="number" name="documento" id="documento" required><br>
-
-                    <label for="direccion">Dirección</label><br>
-                    <input type="text" name="direccion" id="direccion" required><br>
-                    
-                    <label for="dpto">N° de dpto/casa/torre- edificio</label><br>
-                    <input type="text" name="dpto" id="dpto" required><br>
-
-                    <label for="pais">País</label><br>
-                    <input type="text" name="pais" id="pais" required><br>
-
-                    <label for="ciudad">Ciudad</label><br>
-                    <input type="text" name="ciudad" id="ciudad" required><br>
-
-                    <label for="telefono">Teléfono fijo o celular</label><br>
-                    <input type="number" name="telefono" id="telefono" required><br>
-
-                    <label for="email">Email</label><br>
-                    <input type="email" name="email" id="email" required><br>
-
-                    <label for="comentarios">Comentarios adicionales</label><br>
-                    <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea><br>
-
-                    <input type="submit" value="Enviar" id="boton">
-                    
-                </form>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="well well-sm">
+                        <form class="form-horizontal" method="post">
+                            <fieldset>
+                                <legend class="text-center header">Si sos cliente, actualizá tus datos personales</legend>
+        
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="email" name="email" type="text" placeholder="E-mail" class="form-control">
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="phone" name="phone" type="text" placeholder="Dirección" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa-solid fa-house"></i></i></span>
+                                    <div class="col-md-8">
+                                        <input id="phone" name="phone" type="text" placeholder="Localidad" class="form-control">
+                                    </div>
+                                </div>    
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <textarea class="form-control" id="message" name="message" placeholder="Agregue aquí comentarios adicionales" rows="7"></textarea>
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

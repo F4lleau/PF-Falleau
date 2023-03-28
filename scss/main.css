@@ -48,7 +48,6 @@ ul li {
 }
 
 ul li::after {
-  content: "|";
   margin: 1rem;
   color: rgb(252, 248, 248);
 }
