@@ -4,40 +4,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 .en-accion {
   background-color: white;
-}
-
-.banner {
-  margin-top: 0px;
-}
-.banner img {
-  width: 100%;
-  height: 300px;
-  background-position: center;
-  background-size: auto;
-}
-
-.work {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 30px 50px;
 }
-.work article {
+.en-accion article {
   margin: 15px;
 }
-.work img {
+.en-accion img {
   width: 100%;
   max-width: 400px;
   background-position: center;
-}
-.work h2 {
-  text-align: center;
-  color: #008080;
-}
-.work h3 {
-  text-align: center;
-  color: #111111;
-  font-size: 25px;
 }
 
 * {
@@ -222,93 +200,42 @@ ul a {
 
 .about-us {
   background-color: #212f3c;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 20px;
+  padding: 0%;
+  margin: 0px;
   border: auto;
 }
-.about-us .about-1 {
-  margin: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.about-us .about-1 h1 {
+.about-us h1 {
   text-align: center;
   color: #008080;
   font-weight: bold;
 }
-.about-us .about-1 h2 {
+.about-us h2 {
   text-align: center;
   color: rgb(238, 236, 236);
   font-weight: bold;
   padding: 30px;
   font-size: 20px;
 }
-.about-us .about-1 p {
+.about-us p {
   text-align: center;
   padding: 10px;
   color: #fff;
 }
-.about-us .about-item {
+
+.banner {
+  margin-top: 0px;
+}
+.banner img {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 75px auto;
-  text-align: center;
-  background-color: #fff;
-}
-.about-us .about-item i {
-  font-size: 43px;
-  margin: 0;
-  position: static;
-}
-.about-us .about-item h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-.about-us .about-item img {
-  width: 50%;
   height: 300px;
   background-position: center;
   background-size: auto;
-}
-
-.about-item:hover {
-  transform: translateY(-4px);
-}
-
-.card {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  margin: 0px;
-  background-color: #efefef;
-  box-sizing: content-box;
 }
 
 body {
   background: #212F3C;
 }
 
-/* 
-.post-list{
-    display: flex;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 15px;
-}
-.content{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 20px;
-    max-width: 1000px;
-    margin: auto;
-}
-*/
 .titulo-seccion {
   font-size: 2em;
   margin-bottom: 20px;
